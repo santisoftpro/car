@@ -124,7 +124,7 @@
             $router->get('/new', 'Content@AdvertSave');
         });
         
-        //email templates
+        //email templates 
         $router->mount('/etemplates', function () use ($router, $tpl) {
             $router->match('GET|POST', '/', 'Content@Etemplates');
             $router->get('/edit/(\d+)', 'Content@EtemplateEdit');
