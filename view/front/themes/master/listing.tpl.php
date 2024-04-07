@@ -145,6 +145,7 @@
                 <?php endif; ?>
             </div>
           </div>
+        
           <a class="wojo fluid basic primary button pnumber" data-number="<?php echo $this->location->phone; ?>"><i
               class="icon phone"></i>
             <span><?php echo substr($this->location->phone, 0, -4); ?>****-<?php echo strtolower(Lang::$word->REVEAL); ?></span></a>
@@ -198,6 +199,7 @@
 </div>
 <?php include THEMEBASE . "/_categories.tpl.php"; ?>
 <?php include THEMEBASE . "/_brands.tpl.php"; ?>
+
 <script async src="https://maps.google.com/maps/api/js?key=<?php echo $this->core->mapapi; ?>&callback=runMap"></script>
 <script type="text/javascript">
    // <![CDATA[
