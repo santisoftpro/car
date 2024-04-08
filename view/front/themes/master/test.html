@@ -206,32 +206,8 @@ sss
     </div><!-- #list-detail -->
 
     <div id="list-center">
-
-        <input type="hidden" id="id-local-is-bfs-target-country" value="1">
-
-        <input type="hidden" id="id-selected-currency" value="USD">
-        <input type="hidden" id="id-selected-currency-rate" value="1.000000">
-
-        <input type="hidden" id="id-local-ask-string" value="ASK">
-        <input type="hidden" id="id-local-original-total-price" value="-1">
-        <input type="hidden" id="id-local-current-total-price" value="-1">
-        <input type="hidden" id="id-local-is-ask" value="0">
-        <input type="hidden" id="id-local-promotion-discount-price" value="0">
-        <input type="hidden" id="id-local-supporters-discount-price" value="0">
-        <input type="hidden" id="id-local-total-discount-price" value="0">
-
-        <input type="hidden" id="id-local-jquery-selector-promotion-code-country-id" value="#tp_country_id">
-        <input type="hidden" id="id-local-jquery-selector-promotion-code-alt-port-id"
-            value="input[name=alt_port_id]:checked">
-        <input type="hidden" id="id-local-jquery-selector-promotion-code-veh-id" value="input[name=veh_id]">
-        <input type="hidden" id="id-local-jquery-selector-supporters-id-country-id" value="#tp_country_id">
-        <input type="hidden" id="id-local-jquery-selector-supporters-id-veh-id" value="input[name=veh_id]">
-        <input type="hidden" id="fob-price-adjusted" value="0">
-
         <form action="/inquiry/inquiry_mail" method="post" id="inquiryForm" name="inqfm" class="fn-order-page-form">
-            <input type="hidden" name="veh_id" value="7355495">
-            <input type="hidden" name="front_country_code" value="rw">
-            <input type="hidden" name="more_cars_url" value="/vehicle/more_car_consider/veh_id=7355495">
+            
             <div id="anchor-vehicle-detail-step1" class="step1-area cf step1-renewal" data-nosnippet>
                 <h2 class="area-headline"><span class="step-box">STEP 1<img
                             src="//cdn.beforward.jp/assets/images/veh_detail/step-box-arrow.png?_=64c30c32"
@@ -250,7 +226,6 @@ sss
                                         <select name="tp_country_id" id="tp_country_id" style="display:none;">
                                             <option value="Rwanda">Rwanda</option>
 
-
                                         </select>
 
                                         <i class="dropdown icon"></i>
@@ -261,6 +236,684 @@ sss
                                         </div>
                                     </div>
 
+                <div id="quote-table-area" class="quote-table-area fn-quote-price-area quote-table-renewal">
+                    <table id="change-country-port-modal" class="quote-table cif ">
+                        <tbody>
+                
+                            <tr style="display:none;">
+                                <th id="change-country-port"></th>
+                            </tr>
+                            
+                            <tr data-port-id="49">
+                                <td colspan="3">
+                                    <div>from <span>DAR ES SALAAM</span> port to</div>
+                                </td>
+                            </tr>
+                            
+                            <tr data-orc-rate="">
+                                <td data-quote-form-row="49:roro">
+                                    <div>
+                                        <input id="49:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="49:roro" value="49:roro"
+                                            checked="checked" style="display: none;">
+                                        <span></span>
+                                        <div>
+                                            <div>
+                                                <p>
+                                                    DAR&nbsp;ES&nbsp;SALAAM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-quote-form-row="49:roro">
+                                    <div>
+                                        <div>
+                                            <p>pick up at port (RORO)</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-quote-form-row="49:roro" data-shipping-method-for-display="RORO">
+                                    <div>
+                                        <div>
+                                            <div><span data-nosnippet>ASK</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td data-quote-form-row="49:share_container">
+                                    <div>
+                                        <input id="49:share_container" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="container" data-alt-port-id="49:share_container"
+                                            value="49:share_container" style="display: none;">
+                                        <span></span>
+                                        <div>
+                                            <div>
+                                                <p>
+                                                    DAR&nbsp;ES&nbsp;SALAAM
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-quote-form-row="49:share_container">
+                                    <div>
+                                        <div>
+                                            <p>pick up at port (ShareContainer)</p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td data-quote-form-row="49:share_container" data-shipping-method-for-display="ShareContainer">
+                                    <div>
+                                        <div>
+                                            <div><span data-nosnippet>$9,350</span></div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            
+                            <!-- done up -->
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+
+
+
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f9001:49:roro"
+                                    data-quote-form-row="f9001:49:roro">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+                                        <input id="f9001:49:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="f9001:49:roro"
+                                            value="f9001:49:roro" class="quote-form-alt-port-id-radio"
+                                            style="display: none;">
+
+
+                                        <span class="mark"></span>
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    DAR&nbsp;ES&nbsp;SALAAM
+
+                                                <p class="port-list-message-clearing-only">with&nbsp;clearing</p>
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f9001:49:roro"
+                                    data-quote-form-row="f9001:49:roro">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
+                                                (RORO)</p>
+
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                             
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f9001:49:roro"
+                                    data-quote-form-row="f9001:49:roro" data-shipping-method-for-display="RORO">
+
+
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f9001:49:share_container"
+                                    data-quote-form-row="f9001:49:share_container">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+                                        <input id="f9001:49:share_container" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="container"
+                                            data-alt-port-id="f9001:49:share_container" value="f9001:49:share_container"
+                                            class="quote-form-alt-port-id-radio" style="display: none;">
+
+
+                                        <span class="mark"></span>
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    DAR&nbsp;ES&nbsp;SALAAM
+
+                                                <p class="port-list-message-clearing-only">with&nbsp;clearing</p>
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f9001:49:share_container"
+                                    data-quote-form-row="f9001:49:share_container">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
+                                                (ShareContainer)</p>
+
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                             
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f9001:49:share_container"
+                                    data-quote-form-row="f9001:49:share_container"
+                                    data-shipping-method-for-display="ShareContainer">
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                           
+
+
+
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f109:49:roro"
+                                    data-quote-form-row="f109:49:roro">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+                                        <input id="f109:49:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="f109:49:roro"
+                                            value="f109:49:roro" class="quote-form-alt-port-id-radio"
+                                            style="display: none;">
+
+
+                                        <span class="mark"></span>
+
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    RUSUMO
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f109:49:roro"
+                                    data-quote-form-row="f109:49:roro">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+
+                                            <p class="port-list-message-delivery fn-port-list-message">
+                                                delivery via <em>
+
+                                                    Driver
+                                                </em> (RORO)
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                           
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f109:49:roro"
+                                    data-quote-form-row="f109:49:roro" data-shipping-method-for-display="RORO">
+
+
+                               
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+
+
+
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f109:49:share_container"
+                                    data-quote-form-row="f109:49:share_container">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+
+                            
+
+                                        <input id="f109:49:share_container" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="container"
+                                            data-alt-port-id="f109:49:share_container" value="f109:49:share_container"
+                                            class="quote-form-alt-port-id-radio" style="display: none;">
+
+
+                                        <span class="mark"></span>
+
+
+                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
+
+
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    RUSUMO
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f109:49:share_container"
+                                    data-quote-form-row="f109:49:share_container">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+
+                                            <p class="port-list-message-delivery fn-port-list-message">
+                                                delivery via <em>
+
+                                                    Ferry
+                                                </em> (ShareContainer)
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                           
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f109:49:share_container"
+                                    data-quote-form-row="f109:49:share_container"
+                                    data-shipping-method-for-display="ShareContainer">
+
+
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="port-list-price"><span class="fn-total-price-display"
+                                                    data-nosnippet>$12,165</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+
+
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:49:roro"
+                                    data-quote-form-row="f1063:49:roro">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+
+
+                                        <input id="f1063:49:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="f1063:49:roro"
+                                            value="f1063:49:roro" class="quote-form-alt-port-id-radio"
+                                            style="display: none;">
+
+
+                                        <span class="mark"></span>
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    KIGALI
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f1063:49:roro"
+                                    data-quote-form-row="f1063:49:roro">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+
+                                            <p class="port-list-message-delivery fn-port-list-message">
+                                                delivery via <em>
+
+                                                    Driver
+                                                </em> (RORO)
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f1063:49:roro"
+                                    data-quote-form-row="f1063:49:roro" data-shipping-method-for-display="RORO">
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="fn-destination-price-row fn-destination-price-row-49">
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:49:share_container"
+                                    data-quote-form-row="f1063:49:share_container">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+                                     <input id="f1063:49:share_container" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="container"
+                                            data-alt-port-id="f1063:49:share_container" value="f1063:49:share_container"
+                                            class="quote-form-alt-port-id-radio" style="display: none;">
+
+
+                                        <span class="mark"></span>
+
+
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    KIGALI
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f1063:49:share_container"
+                                    data-quote-form-row="f1063:49:share_container">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+
+                                            <p class="port-list-message-delivery fn-port-list-message">
+                                                delivery via <em>
+
+                                                    Ferry
+                                                </em> (ShareContainer)
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f1063:49:share_container"
+                                    data-quote-form-row="f1063:49:share_container"
+                                    data-shipping-method-for-display="ShareContainer">
+
+
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="fn-from-port-header" data-port-id="32">
+                                <td colspan="3">
+                                    <div class="from-port-header">from <span>MOMBASA</span> port to</div>
+                                </td>
+                            </tr>
+                            <tr class="fn-destination-price-row fn-destination-price-row-32" data-orc-rate=""
+                                data-orc-adjust="" data-orc-enabled="" data-orc-ceil-digit="1">
+
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-32:roro"
+                                    data-quote-form-row="32:roro">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+
+                                        <input id="32:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="32:roro" value="32:roro"
+                                            class="quote-form-alt-port-id-radio" style="display: none;">
+
+
+                                        <span class="mark"></span>
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    MOMBASA
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-32:roro"
+                                    data-quote-form-row="32:roro">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
+                                                (RORO)</p>
+
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                             
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-32:roro"
+                                    data-quote-form-row="32:roro" data-shipping-method-for-display="RORO">
+
+
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="fn-destination-price-row fn-destination-price-row-32">
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-32:container"
+                                    data-quote-form-row="32:container">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+
+                                      
+
+
+
+
+                                        <input id="32:container" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="container" data-alt-port-id="32:container"
+                                            value="32:container" class="quote-form-alt-port-id-radio"
+                                            style="display: none;">
+
+
+                                        <span class="mark"></span>
+
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    MOMBASA
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-32:container"
+                                    data-quote-form-row="32:container">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
+                                                (Container)</p>
+
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                                <input type="hidden" name="city-delivery-data" value="0">
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-32:container"
+                                    data-quote-form-row="32:container" data-shipping-method-for-display="Container">
+
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="port-list-price"><span class="fn-total-price-display"
+                                                    data-nosnippet>$10,530</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="fn-destination-price-row fn-destination-price-row-32">
+
+                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:32:roro"
+                                    data-quote-form-row="f1063:32:roro">
+                                    <div class="fn-quote-form-box pseudo-destination-label">
+
+                                      
+
+
+                                        <input id="f1063:32:roro" type="radio" name="alt_port_id"
+                                            data-shipping-method-type="roro" data-alt-port-id="f1063:32:roro"
+                                            value="f1063:32:roro" class="quote-form-alt-port-id-radio"
+                                            style="display: none;">
+
+
+                                        <span class="mark"></span>
+
+                                        <div class="port-detail">
+                                            <div class="port-detail-name">
+                                                <p class="port-list-title">
+                                                    KIGALI
+                                                </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f1063:32:roro"
+                                    data-quote-form-row="f1063:32:roro">
+
+
+                                    <div class="port-detail">
+                                        <div class="port-detail-name">
+
+                                            <p class="port-list-message-delivery fn-port-list-message">
+                                                delivery via <em>
+
+                                                    Driver
+                                                </em> (RORO)
+                                            </p>
+                                        </div>
+                                    </div>
+
+
+                                </td>
+                                <input type="hidden" name="city-delivery-data" value="1">
+                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f1063:32:roro"
+                                    data-quote-form-row="f1063:32:roro" data-shipping-method-for-display="RORO">
+
+
+                               
+
+                                    <div class="port-data">
+                                        <div class="port-detail">
+                                            <div class="ask"><span class="fn-total-price-display"
+                                                    data-nosnippet>ASK</span></div>
+                                        </div>
+
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="service-promo-area" class="service-promo-area cf">
+                        <div class="service-promo-area-left">
+                            <h3>Additional Options</h3>
+                            <div style="display:flex;">
+                                <ul class="service-list fn-additional-options">
+
+
+                                    <li id="insurance_li">
+                                        <label for="insurance" class="fn-insurance-quotation-type"
+                                            data-checked-quotation="CIF" data-no-checked-quotation="C&F">
+                                            
+                                            <input type="checkbox" id="insurance" name="insurance" value="1" />
+                                            <label for="insurance" name="insurance" value="1"
+                                                class="quote-options-box"></label>
+                                            <span id="available-span" class="available"> Marine Insurance
+                                                <a href="#" class="fixedTip"
+                                                    title="Marine insurance covers the total loss by shipwreck.">
+                                                    <img src="//cdn.beforward.jp/assets/images/form_icon.png?_=64c30c24"
+                                                        alt="" width="15" height="15">
+                                                </a>
+                                            </span>
+                                            <div id="note-span"></div>
+                                        </label>
+                                    </li>
+
+
+
+
+                                    <li id="protection_li">
+                                        <label for="protection" class="fn-protection-quotation-type"
+                                            data-checked-quotation="CIF" data-no-checked-quotation="C&F">
+                                            
+                                     <input type="checkbox" id="protection" name="protection" value="1"
+                                                disabled="disabled" checked="checked" />
+                                            <label for="protection" name="protection" value="1"
+                                                class="quote-options-box"></label>
+                                            <span id="available-span-protection" class="available">
+                                                BF Warranty
+                                            </span>
+                                            <div class="warranty-note">
+                                                BF Warranty is <span id='warranty-price-display'></span> per vehicle.
+                                            </div>
+                                            <div class="warranty-note-for-ask">
+                                                BF Warranty is a fee-based service<br>（ASK).
+                                            </div>
+                                            <div class="about-warranty"><a href="/support/warranty-coverage">about BF
+                                                    Warranty</a></div>
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+        
+                    </div>
+
+
+                  
+                </div>
 
 
                                 </div>
@@ -338,249 +991,89 @@ sss
                 <div id="quote-table-area" class="quote-table-area fn-quote-price-area quote-table-renewal">
                     <table id="change-country-port-modal" class="quote-table cif ">
                         <tbody>
+                
                             <tr style="display:none;">
                                 <th id="change-country-port"></th>
                             </tr>
-
-
-
-                            <tr class="fn-from-port-header" data-port-id="49">
+                            
+                            <tr data-port-id="49">
                                 <td colspan="3">
-                                    <div class="from-port-header">from <span>DAR ES SALAAM</span> port to</div>
+                                    <div>from <span>DAR ES SALAAM</span> port to</div>
                                 </td>
                             </tr>
-
-
-                            <tr class="fn-destination-price-row fn-destination-price-row-49" data-orc-rate=""
-                                data-orc-adjust="" data-orc-enabled="" data-orc-ceil-digit="1">
-                                <input type="hidden" id="fn-port-city-info-49:roro"
-                                    data-destination="DAR&nbsp;ES&nbsp;SALAAM" data-with-clearing=""
-                                    data-via="pick up at port (RORO)" data-forward-city-name=""
-                                    data-port="DAR ES SALAAM" data-clearing-only-flg=""> <input type="hidden"
-                                    class="fn-vehicle-detail-row-shipping-method-roro" data-alt-port-id="49:roro">
-
-                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-49:roro"
-                                    data-quote-form-row="49:roro">
-                                    <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_only49" value="">
-
-
-
-
+                            
+                            <tr data-orc-rate="">
+                                <td data-quote-form-row="49:roro">
+                                    <div>
                                         <input id="49:roro" type="radio" name="alt_port_id"
                                             data-shipping-method-type="roro" data-alt-port-id="49:roro" value="49:roro"
-                                            checked="checked" class="quote-form-alt-port-id-radio"
-                                            style="display: none;">
-
-
-
-                                        <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
-                                        <div class="port-detail">
-                                            <div class="port-detail-name">
-                                                <p class="port-list-title">
+                                            checked="checked" style="display: none;">
+                                        <span></span>
+                                        <div>
+                                            <div>
+                                                <p>
                                                     DAR&nbsp;ES&nbsp;SALAAM
                                                 </p>
                                             </div>
                                         </div>
-
-
-
                                     </div>
                                 </td>
-                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-49:roro"
-                                    data-quote-form-row="49:roro">
-
-
-                                    <div class="port-detail">
-                                        <div class="port-detail-name">
-                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
-                                                (RORO)</p>
-
+                                <td data-quote-form-row="49:roro">
+                                    <div>
+                                        <div>
+                                            <p>pick up at port (RORO)</p>
                                         </div>
                                     </div>
-
-
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
-                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-49:roro"
-                                    data-quote-form-row="49:roro" data-shipping-method-for-display="RORO">
-
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="49:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
-
-
-                                    <div class="port-data">
-                                        <div class="port-detail">
-                                            <div class="ask"><span class="fn-total-price-display"
-                                                    data-nosnippet>ASK</span></div>
+                                <td data-quote-form-row="49:roro" data-shipping-method-for-display="RORO">
+                                    <div>
+                                        <div>
+                                            <div><span data-nosnippet>ASK</span></div>
                                         </div>
-
                                     </div>
-
                                 </td>
                             </tr>
-
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-49:share_container"
-                                data-destination="DAR&nbsp;ES&nbsp;SALAAM" data-with-clearing=""
-                                data-via="pick up at port (ShareContainer)" data-forward-city-name=""
-                                data-port="DAR ES SALAAM" data-clearing-only-flg="">
-
-
-
-                            <tr class="fn-destination-price-row fn-destination-price-row-49">
-
-
-
-
-                                <input type="hidden"
-                                    class="fn-vehicle-detail-row-shipping-method-container fn-vehicle-detail-row-shipping-method-share-container"
-                                    data-alt-port-id="49:share_container">
-
-
-                                <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-49:share_container"
-                                    data-quote-form-row="49:share_container">
-                                    <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="0">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="0">
-
-                                        <input type="hidden" id="clearing_only49" value="">
-
-
-
-
+                            
+                            <tr>
+                                <td data-quote-form-row="49:share_container">
+                                    <div>
                                         <input id="49:share_container" type="radio" name="alt_port_id"
                                             data-shipping-method-type="container" data-alt-port-id="49:share_container"
-                                            value="49:share_container" class="quote-form-alt-port-id-radio"
-                                            style="display: none;">
-
-
-                                        <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
-                                        <div class="port-detail">
-                                            <div class="port-detail-name">
-                                                <p class="port-list-title">
+                                            value="49:share_container" style="display: none;">
+                                        <span></span>
+                                        <div>
+                                            <div>
+                                                <p>
                                                     DAR&nbsp;ES&nbsp;SALAAM
                                                 </p>
                                             </div>
                                         </div>
-
-
-
                                     </div>
                                 </td>
-                                <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-49:share_container"
-                                    data-quote-form-row="49:share_container">
-
-
-                                    <div class="port-detail">
-                                        <div class="port-detail-name">
-                                            <p class="port-list-message-to-port fn-port-list-message">pick up at port
-                                                (ShareContainer)</p>
-
+                                <td data-quote-form-row="49:share_container">
+                                    <div>
+                                        <div>
+                                            <p>pick up at port (ShareContainer)</p>
                                         </div>
                                     </div>
-
-
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
-                                <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-49:share_container"
-                                    data-quote-form-row="49:share_container"
-                                    data-shipping-method-for-display="ShareContainer">
-
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="80">
-                                    <input type="hidden" name="option-alt-port-id" value="49:share_container">
-
-                                    <input type="hidden" class="fn-total-price" value="9350">
-
-
-                                    <div class="port-data">
-                                        <div class="port-detail">
-                                            <div class="port-list-price"><span class="fn-total-price-display"
-                                                    data-nosnippet>$9,350</span></div>
+                                <td data-quote-form-row="49:share_container" data-shipping-method-for-display="ShareContainer">
+                                    <div>
+                                        <div>
+                                            <div><span data-nosnippet>$9,350</span></div>
                                         </div>
-
                                     </div>
-
                                 </td>
                             </tr>
-
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-f9001:49:roro"
-                                data-destination="DAR&nbsp;ES&nbsp;SALAAM" data-with-clearing="with&nbsp;clearing"
-                                data-via="pick up at port (RORO)"
-                                data-forward-city-name="DAR&nbsp;ES&nbsp;SALAAM&nbsp;+&nbsp;Clearing"
-                                data-port="DAR ES SALAAM" data-clearing-only-flg="1">
-
-
-
+                            
+                            <!-- done up -->
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
 
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-roro"
-                                    data-alt-port-id="f9001:49:roro">
 
 
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f9001:49:roro"
                                     data-quote-form-row="f9001:49:roro">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf9001:49" value="1">
-
-
-
-
                                         <input id="f9001:49:roro" type="radio" name="alt_port_id"
                                             data-shipping-method-type="roro" data-alt-port-id="f9001:49:roro"
                                             value="f9001:49:roro" class="quote-form-alt-port-id-radio"
@@ -588,11 +1081,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
                                         <div class="port-detail">
                                             <div class="port-detail-name">
                                                 <p class="port-list-title">
@@ -621,16 +1109,10 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
+                             
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f9001:49:roro"
                                     data-quote-form-row="f9001:49:roro" data-shipping-method-for-display="RORO">
 
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f9001:49:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
 
 
                                     <div class="port-data">
@@ -644,42 +1126,10 @@ sss
                                 </td>
                             </tr>
 
-                            <input type="hidden" id="fn-port-city-info-f9001:49:share_container"
-                                data-destination="DAR&nbsp;ES&nbsp;SALAAM" data-with-clearing="with&nbsp;clearing"
-                                data-via="pick up at port (ShareContainer)"
-                                data-forward-city-name="DAR&nbsp;ES&nbsp;SALAAM&nbsp;+&nbsp;Clearing"
-                                data-port="DAR ES SALAAM" data-clearing-only-flg="1">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
-
-
-
-
-                                <input type="hidden"
-                                    class="fn-vehicle-detail-row-shipping-method-container fn-vehicle-detail-row-shipping-method-share-container"
-                                    data-alt-port-id="f9001:49:share_container">
-
-
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f9001:49:share_container"
                                     data-quote-form-row="f9001:49:share_container">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf9001:49" value="1">
-
-
-
-
                                         <input id="f9001:49:share_container" type="radio" name="alt_port_id"
                                             data-shipping-method-type="container"
                                             data-alt-port-id="f9001:49:share_container" value="f9001:49:share_container"
@@ -687,11 +1137,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
                                         <div class="port-detail">
                                             <div class="port-detail-name">
                                                 <p class="port-list-title">
@@ -720,19 +1165,10 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
+                             
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f9001:49:share_container"
                                     data-quote-form-row="f9001:49:share_container"
                                     data-shipping-method-for-display="ShareContainer">
-
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f9001:49:share_container">
-
-                                    <input type="hidden" class="fn-total-price" value="">
-
-
                                     <div class="port-data">
                                         <div class="port-detail">
                                             <div class="ask"><span class="fn-total-price-display"
@@ -743,39 +1179,14 @@ sss
 
                                 </td>
                             </tr>
-                            <input type="hidden" id="fn-port-city-info-f109:49:roro" data-destination="RUSUMO"
-                                data-with-clearing="" data-via="delivery via Driver (RORO)"
-                                data-forward-city-name="RUSUMO" data-port="DAR ES SALAAM" data-clearing-only-flg="0">
+                           
 
 
 
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
-
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-roro"
-                                    data-alt-port-id="f109:49:roro">
-
-
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f109:49:roro"
                                     data-quote-form-row="f109:49:roro">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf109:49" value="0">
-
-
-
-
                                         <input id="f109:49:roro" type="radio" name="alt_port_id"
                                             data-shipping-method-type="roro" data-alt-port-id="f109:49:roro"
                                             value="f109:49:roro" class="quote-form-alt-port-id-radio"
@@ -783,10 +1194,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
 
                                         <div class="port-detail">
                                             <div class="port-detail-name">
@@ -818,18 +1225,12 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="1">
+                           
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f109:49:roro"
                                     data-quote-form-row="f109:49:roro" data-shipping-method-for-display="RORO">
 
 
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f109:49:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
-
-
+                               
                                     <div class="port-data">
                                         <div class="port-detail">
                                             <div class="ask"><span class="fn-total-price-display"
@@ -842,44 +1243,15 @@ sss
                             </tr>
 
 
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-f109:49:share_container"
-                                data-destination="RUSUMO" data-with-clearing=""
-                                data-via="delivery via Ferry (ShareContainer)" data-forward-city-name="RUSUMO"
-                                data-port="DAR ES SALAAM" data-clearing-only-flg="0">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
 
-
-
-
-                                <input type="hidden"
-                                    class="fn-vehicle-detail-row-shipping-method-container fn-vehicle-detail-row-shipping-method-share-container"
-                                    data-alt-port-id="f109:49:share_container">
 
 
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f109:49:share_container"
                                     data-quote-form-row="f109:49:share_container">
                                     <div class="fn-quote-form-box pseudo-destination-label">
 
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="0">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="0">
-
-                                        <input type="hidden" id="clearing_onlyf109:49" value="0">
-
-
-
+                            
 
                                         <input id="f109:49:share_container" type="radio" name="alt_port_id"
                                             data-shipping-method-type="container"
@@ -923,17 +1295,11 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
+                           
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f109:49:share_container"
                                     data-quote-form-row="f109:49:share_container"
                                     data-shipping-method-for-display="ShareContainer">
 
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="80">
-                                    <input type="hidden" name="option-alt-port-id" value="f109:49:share_container">
-
-                                    <input type="hidden" class="fn-total-price" value="12165">
 
 
                                     <div class="port-data">
@@ -946,43 +1312,12 @@ sss
 
                                 </td>
                             </tr>
-
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-f1063:49:roro" data-destination="KIGALI"
-                                data-with-clearing="" data-via="delivery via Driver (RORO)"
-                                data-forward-city-name="KIGALI" data-port="DAR ES SALAAM" data-clearing-only-flg="0">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
-
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-roro"
-                                    data-alt-port-id="f1063:49:roro">
 
 
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:49:roro"
                                     data-quote-form-row="f1063:49:roro">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf1063:49" value="0">
-
-
 
 
                                         <input id="f1063:49:roro" type="radio" name="alt_port_id"
@@ -992,11 +1327,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
                                         <div class="port-detail">
                                             <div class="port-detail-name">
                                                 <p class="port-list-title">
@@ -1024,20 +1354,9 @@ sss
                                             </p>
                                         </div>
                                     </div>
-
-
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="1">
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f1063:49:roro"
                                     data-quote-form-row="f1063:49:roro" data-shipping-method-for-display="RORO">
-
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f1063:49:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
-
 
                                     <div class="port-data">
                                         <div class="port-detail">
@@ -1049,57 +1368,17 @@ sss
 
                                 </td>
                             </tr>
-
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-f1063:49:share_container"
-                                data-destination="KIGALI" data-with-clearing=""
-                                data-via="delivery via Ferry (ShareContainer)" data-forward-city-name="KIGALI"
-                                data-port="DAR ES SALAAM" data-clearing-only-flg="0">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-49">
-
-
-
-
-                                <input type="hidden"
-                                    class="fn-vehicle-detail-row-shipping-method-container fn-vehicle-detail-row-shipping-method-share-container"
-                                    data-alt-port-id="f1063:49:share_container">
-
-
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:49:share_container"
                                     data-quote-form-row="f1063:49:share_container">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf1063:49" value="0">
-
-
-
-
-                                        <input id="f1063:49:share_container" type="radio" name="alt_port_id"
+                                     <input id="f1063:49:share_container" type="radio" name="alt_port_id"
                                             data-shipping-method-type="container"
                                             data-alt-port-id="f1063:49:share_container" value="f1063:49:share_container"
                                             class="quote-form-alt-port-id-radio" style="display: none;">
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
 
 
                                         <div class="port-detail">
@@ -1109,9 +1388,6 @@ sss
                                                 </p>
                                             </div>
                                         </div>
-
-
-
                                     </div>
                                 </td>
                                 <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-f1063:49:share_container"
@@ -1132,17 +1408,10 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-f1063:49:share_container"
                                     data-quote-form-row="f1063:49:share_container"
                                     data-shipping-method-for-display="ShareContainer">
 
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f1063:49:share_container">
-
-                                    <input type="hidden" class="fn-total-price" value="">
 
 
                                     <div class="port-data">
@@ -1155,56 +1424,17 @@ sss
 
                                 </td>
                             </tr>
-
-
-
                             <tr class="fn-from-port-header" data-port-id="32">
                                 <td colspan="3">
                                     <div class="from-port-header">from <span>MOMBASA</span> port to</div>
                                 </td>
                             </tr>
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-32" data-orc-rate=""
                                 data-orc-adjust="" data-orc-enabled="" data-orc-ceil-digit="1">
-
-
-
-
-
-
-
-
-                                <input type="hidden" id="fn-port-city-info-32:roro" data-destination="MOMBASA"
-                                    data-with-clearing="" data-via="pick up at port (RORO)" data-forward-city-name=""
-                                    data-port="MOMBASA" data-clearing-only-flg="">
-
-
-
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-roro"
-                                    data-alt-port-id="32:roro">
-
 
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-32:roro"
                                     data-quote-form-row="32:roro">
                                     <div class="fn-quote-form-box pseudo-destination-label">
-
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_only32" value="">
-
-
-
 
                                         <input id="32:roro" type="radio" name="alt_port_id"
                                             data-shipping-method-type="roro" data-alt-port-id="32:roro" value="32:roro"
@@ -1212,11 +1442,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
                                         <div class="port-detail">
                                             <div class="port-detail-name">
                                                 <p class="port-list-title">
@@ -1243,16 +1468,10 @@ sss
 
 
                                 </td>
-                                <input type="hidden" name="city-delivery-data" value="0">
+                             
                                 <td class="table-total-price fn-total-price-cell fn-quote-form-row fn-quote-form-row-32:roro"
                                     data-quote-form-row="32:roro" data-shipping-method-for-display="RORO">
 
-
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="32:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
 
 
                                     <div class="port-data">
@@ -1265,41 +1484,12 @@ sss
 
                                 </td>
                             </tr>
-
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-32:container" data-destination="MOMBASA"
-                                data-with-clearing="" data-via="pick up at port (Container)" data-forward-city-name=""
-                                data-port="MOMBASA" data-clearing-only-flg="">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-32">
-
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-container"
-                                    data-alt-port-id="32:container">
-
-
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-32:container"
                                     data-quote-form-row="32:container">
                                     <div class="fn-quote-form-box pseudo-destination-label">
 
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="0">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="80">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="0">
-
-                                        <input type="hidden" id="clearing_only32" value="">
+                                      
 
 
 
@@ -1312,10 +1502,6 @@ sss
 
                                         <span class="mark"></span>
 
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
-
                                         <div class="port-detail">
                                             <div class="port-detail-name">
                                                 <p class="port-list-title">
@@ -1323,9 +1509,6 @@ sss
                                                 </p>
                                             </div>
                                         </div>
-
-
-
                                     </div>
                                 </td>
                                 <td class="service-details-cell port-data fn-quote-form-row fn-quote-form-row-32:container"
@@ -1347,13 +1530,6 @@ sss
                                     data-quote-form-row="32:container" data-shipping-method-for-display="Container">
 
 
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="80">
-                                    <input type="hidden" name="option-alt-port-id" value="32:container">
-
-                                    <input type="hidden" class="fn-total-price" value="10530">
-
-
                                     <div class="port-data">
                                         <div class="port-detail">
                                             <div class="port-list-price"><span class="fn-total-price-display"
@@ -1365,42 +1541,13 @@ sss
                                 </td>
                             </tr>
 
-
-
-
-
-
-                            <input type="hidden" id="fn-port-city-info-f1063:32:roro" data-destination="KIGALI"
-                                data-with-clearing="" data-via="delivery via Driver (RORO)"
-                                data-forward-city-name="KIGALI" data-port="MOMBASA" data-clearing-only-flg="0">
-
-
-
                             <tr class="fn-destination-price-row fn-destination-price-row-32">
-
-
-
-
-                                <input type="hidden" class="fn-vehicle-detail-row-shipping-method-roro"
-                                    data-alt-port-id="f1063:32:roro">
-
 
                                 <td class="fn-harbor-insurance port-data fn-quote-form-row vertical-top fn-quote-form-row-f1063:32:roro"
                                     data-quote-form-row="f1063:32:roro">
                                     <div class="fn-quote-form-box pseudo-destination-label">
 
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="insurance" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="inspection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="protection" value="">
-                                        <input type="hidden" class="fn-quote-option-price"
-                                            data-target-option="certificate" value="">
-
-                                        <input type="hidden" id="clearing_onlyf1063:32" value="0">
-
-
+                                      
 
 
                                         <input id="f1063:32:roro" type="radio" name="alt_port_id"
@@ -1410,10 +1557,6 @@ sss
 
 
                                         <span class="mark"></span>
-
-
-                                        <input type="hidden" name="harbor_insurance_type" value="2" disabled>
-
 
                                         <div class="port-detail">
                                             <div class="port-detail-name">
@@ -1450,12 +1593,7 @@ sss
                                     data-quote-form-row="f1063:32:roro" data-shipping-method-for-display="RORO">
 
 
-                                    <input type="hidden" class="option-price-protection" data-target-option="protection"
-                                        value="">
-                                    <input type="hidden" name="option-alt-port-id" value="f1063:32:roro">
-
-                                    <input type="hidden" class="fn-total-price" value="">
-
+                               
 
                                     <div class="port-data">
                                         <div class="port-detail">
@@ -1479,14 +1617,10 @@ sss
                                     <li id="insurance_li">
                                         <label for="insurance" class="fn-insurance-quotation-type"
                                             data-checked-quotation="CIF" data-no-checked-quotation="C&F">
-                                            <input type="hidden" name="insurance" value="0" />
+                                            
                                             <input type="checkbox" id="insurance" name="insurance" value="1" />
                                             <label for="insurance" name="insurance" value="1"
                                                 class="quote-options-box"></label>
-
-
-
-                                            <input type="hidden" id="default_insurance_off_flg">
                                             <span id="available-span" class="available"> Marine Insurance
                                                 <a href="#" class="fixedTip"
                                                     title="Marine insurance covers the total loss by shipwreck.">
@@ -1504,11 +1638,8 @@ sss
                                     <li id="protection_li">
                                         <label for="protection" class="fn-protection-quotation-type"
                                             data-checked-quotation="CIF" data-no-checked-quotation="C&F">
-
-
-                                            <input type="hidden" id="default_warranty_off_flg">
-                                            <input type="hidden" name="protection" value="1" />
-                                            <input type="checkbox" id="protection" name="protection" value="1"
+                                            
+                                     <input type="checkbox" id="protection" name="protection" value="1"
                                                 disabled="disabled" checked="checked" />
                                             <label for="protection" name="protection" value="1"
                                                 class="quote-options-box"></label>
@@ -1529,217 +1660,18 @@ sss
                                 </ul>
                             </div>
                         </div>
-                        <div class="service-promo-area-right">
-                            <h3>Local Government Requirements</h3>
-                            <ul class="service-list">
-                                <li>
-                                    <label for="inspection">
-                                        <input type="hidden" name="inspection" value="0" />
-                                        <input type="checkbox" id="inspection" name="inspection" value="0"
-                                            disabled="disabled" />
-                                        <label for="inspection" name="inspection" value="0"
-                                            class="quote-options-box"></label>
-                                    </label>
-                                </li>
-
-                                <li>
-                                    <label for="certificate">
-                                        <input type="hidden" name="certificate" value="0" />
-                                        <input type="checkbox" id="certificate" name="certificate" value="0"
-                                            disabled="disabled" />
-                                        <label for="certificate" name="certificate" value="0"
-                                            class="quote-options-box"></label>
-                                    </label>
-                                </li>
-
-
-                            </ul>
-                        </div>
+        
                     </div>
 
 
-
-
-
-                    <!-- coupon_discount/form.tpl -->
-                    <div class="promotion-step2 promotion-step2-renewal">
-                        <div class="promotion-code-area">
-                            <div class="promotion-code-block">
-
-
-                                <div class="promotion" id="fn-vehicle-detail-coupon-discount">
-                                    <p class="bold tromotion_title close-price"
-                                        id="fn-vehicle-detail-coupon-discount-title">Discount Coupon Code
-                                        <i class="icon-down-open" id="fn-vehicle-detail-coupon-discount-icon"></i>
-
-                                    </p>
-                                </div>
-
-
-                                <div class="code_form" id="fn-vehicle-detail-coupon-discount-code-form"
-                                    style="display: none;">
-
-                                    <div class="code_form_in">
-                                        <p>
-                                            <input id="fn-vehicle-detail-coupon-discount-code" type="text"
-                                                name="promotion_code">
-                                            <button type="button" id="button-promotion-discount-apply"
-                                                class="discount-button">Apply</button>
-                                        </p>
-                                    </div>
-
-                                    <div id="div-promotion-code-error" class="div-error">
-                                        <span id="promotion-code-error" class="bf-validation-error-msg-limited"></span>
-                                    </div>
-
-                                    <div class="promotion_code_text">
-
-
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div id="div-promotion-discount" class="total-price-discount-area">
-                                <span class="price-total discount-detail-title font-normal-promo">Valid coupon.
-                                    Discount:&nbsp;</span><span id="selected-promotion-discount-price"
-                                    data-nosnippet>N/A</span>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-                        <div class="total-price-discount-area-wrap">
-
-                            <div class="discount-area-wrap" style="display: none;">
-                                <div id="div-promotion-discount" class="total-price-discount-area">
-                                    <span class="price-total discount-detail-title font-normal-promo">Coupon
-                                        Discount:</span><span id="selected-promotion-discount-price">N/A</span>
-                                </div>
-                                <div id="div-supporters-discount" class="total-price-discount-area">
-                                    <span class="price-total discount-detail-title font-normal-promo">BF SUPPORTERS
-                                        Discount:</span><span id="selected-supporters-discount-price">N/A</span>
-                                </div>
-
-                                <div id="div-total-discount-price"
-                                    class="total-price-discount-area total-discount-title-area">
-                                    <span class="price-total total-discount-title">Total Discount:</span><span
-                                        id="selected-total-discount-price" class="bold">N/A</span>
-                                </div>
-                            </div>
-
-
-                            <div class="total-price-discount-area">
-
-
-
-                                <span class="price-total">Total Price:</span><span class="price-quotation"></span><span
-                                    id="selected_total_price" data-nosnippet>ASK</span><span
-                                    id="span-original-price"></span>
-                            </div>
-
-                        </div>
-
-
-                        <input type="hidden" name="japan_products_flg" value="">
-                    </div>
-
-
-
-
-                    <input type="hidden" id="total_price_value" name="total_price" value="N/A">
-
-                    <div class="bf-point-area">
-                        <img src="//cdn.beforward.jp/assets/images/icon_bf_point_small.png?_=64c30c24" width="24"
-                            height="24" alt="BF Point">
-                        <div class="text-group">
-                            <p>Earn 280pts ($280) by purchasing this vehicle</p>
-                            <span>Limited Time Offer</span>
-                        </div>
-                    </div>
+                  
                 </div>
                 <!-- #inquiry -->
             </div>
             <!-- .step1-area -->
 
 
-            <!-- estimated_on_road_cost/ -->
-            <div class="step1-add-area">
-                <div class="on-road-cost-area">
-                    <span class="price-total">Estimated On-Road Cost</span>
-                    <span class="not-available"><a id="orc-help" href="#" class="fixedTip"
-                            title="Total Price * Customs GST + Registration 1 year<br>(The estimate will reflect if the Compliance Package option is selected or not)">
-                            <img src="//cdn.beforward.jp/assets/images/form_icon.png?_=64c30c24" alt="" width="15"
-                                height="15">
-                        </a>
-                    </span>
-                    <span id="selected_on_road_cost" class="current-on-road-cost" data-nosnippet></span>
-                </div>
-            </div>
-            <!-- /estimated_on_road_cost -->
-
-
-
-
-
-
-
-            <div class="vwo-mod-arrow">
-                <img src="//cdn.beforward.jp/assets/images/veh_detail/icon_step_arrow.png?_=64c30c32" alt="step-arrow"
-                    width="71" height="27">
-            </div>
-            <div class="step2-area step2-renewal">
-
-                <h2 class="area-headline" id="anchor-vehicle-detail-step2"><span class="step-box">STEP 2<img
-                            src="//cdn.beforward.jp/assets/images/veh_detail/step-box-arrow.png?_=64c30c32"
-                            alt="step-arrow" class="step-arrow-image"></span><img
-                        src="//cdn.beforward.jp/assets/images/veh_detail/icon_form_mail.svg?_=64c30c32"
-                        alt="GET A QUOTE"><b>GET A QUOTE</b></h2>
-
-                <div class="inquiry inquiry-switch">
-
-                    <div class="optly-inquiry-switch-nav">
-                        <a class="fn-switch-guest is-active fn-redirect-cookie"
-                            onclick="window.dataLayer.push({ 'event': 'ga_event','event_cat' : 'front_detail','event_act' : 'click','event_lab' : 'front_detail_guestinquiry','event_val' : 1, 'event_non_int' : true });">
-                            <i class="icon-angle-right rotate-left"></i> Get a price quote without logging in
-                        </a>
-                        <span class="login-guidance-text">
-                            <i class="icon-user"></i> Already have a BF account?
-                        </span>
-                        <a class="fn-switch-login fn-redirect-cookie"
-                            onclick="window.dataLayer.push({ 'event': 'ga_event','event_cat' : 'front_detail','event_act' : 'click','event_lab' : 'front_detail_login_1','event_val' : 1, 'event_non_int' : true });">
-                            Login here <i class="icon-angle-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="inquiry-switch-nav">
-                        <button type="button" class="button fn-switch-guest is-active fn-redirect-cookie"
-                            onclick="window.dataLayer.push({ 'event': 'ga_event','event_cat' : 'front_detail','event_act' : 'click','event_lab' : 'front_detail_guestinquiry','event_val' : 1, 'event_non_int' : true });">Guest
-                            Inquiry</button>
-                        <button type="button" class="button fn-switch-login fn-redirect-cookie"
-                            onclick="window.dataLayer.push({ 'event': 'ga_event','event_cat' : 'front_detail','event_act' : 'click','event_lab' : 'front_detail_login_1','event_val' : 1, 'event_non_int' : true });">Log
-                            In</button>
-                    </div>
-                </div>
-
-
-                <div class="">
-
-                </div>
-
-                <div class="inquiry inquiry-order fn-guest-area">
-                    <input type="hidden" name="fpHash" id="fpHash" value="">
-
-                    <p class="inquiry-left">
-                        Please fill the <span class="red">*</span>required fields.
-                    </p>
-
-
-
+         
 
 
 
